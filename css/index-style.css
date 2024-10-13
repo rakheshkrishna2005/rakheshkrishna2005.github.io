@@ -343,10 +343,10 @@ img {
 }
 
 .about__img {
-    width: 200px;
+    width: 220px;
     border-radius: 1.5rem;
     justify-self: center;
-    margin: 0 auto; 
+    margin: 2.5rem; 
 }
 
 .about__data {
@@ -356,7 +356,7 @@ img {
 .about__info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: .5rem;
     margin-bottom: 2rem;
 }
 
@@ -364,7 +364,6 @@ img {
     background-color: var(--container-color);
     border-radius: .75rem;
     padding: .75rem .5rem;
-    width: 100%;
 }
 
 .about__icon {
